@@ -1,16 +1,29 @@
-h1 {
-    background-color: #b7ab9f;
-    display: flex;
-    padding-left: 100px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
 
 .navegacion { 
     padding-right: 100px;
 }
 
 .nav-item {
-color: black;
+color: rgb(61, 60, 60);
 
 }
+
+.titulo { 
+    background-color: #b7ab9f;
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+body{
+    color: ;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    }
+
+  
