@@ -25,10 +25,7 @@ body{
     color:rgb(29, 28, 28);
     font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  
     }
 
     .header h1 { 
@@ -52,7 +49,7 @@ body{
     color:rgb(29, 28, 28);
     font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -64,19 +61,27 @@ body{
 }
 
 .perfil{
+    display: flex;
     margin: 20px;
     justify-content: center;
     justify-content: space-evenly;
     margin-left: 200px;
     margin-right: 200px;
+    
+
 }
 
 .perfil img { 
     border-radius: 2%; 
-    background-position: 50%;
+    background-position: 50%; 
+    size: cover;
+}
 
- 
-  
-    
-    
+.servicios{
+    text-align: center;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
 }
