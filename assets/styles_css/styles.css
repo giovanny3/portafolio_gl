@@ -1,6 +1,7 @@
 
-.navegacion { 
+.nav { 
     padding-right: 100px;
+    justify-content: end;
 }
 
 .nav-item {
@@ -8,16 +9,20 @@ color: rgb(61, 60, 60);
 
 }
 
-.titulo { 
+.header { 
     background-color: #b7ab9f;
     padding-left: 60px;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin: 5px;
+    
+    
 
 
 }
 body{
-    color: ;
+    
+    color:rgb(29, 28, 28);
     font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
@@ -26,4 +31,50 @@ body{
     "wdth" 100;
     }
 
+    .header h1 { 
+        margin: 0;
+    }
+
+    .perfil {
+        display: flex;
+        text-decoration:none;
+    }
+    .card-body h5{ 
+        text-decoration: none;
+        box-shadow: none;
+    }
+
+    .titulo_perfil { 
+        text-decoration: none;
+    }
+.btn { 
+    background-color: #ffffff;
+    color:rgb(29, 28, 28);
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.titulo_perfil{
+    margin: 20px;
+    margin-left: 200px;
+}
+
+.perfil{
+    margin: 20px;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.perfil img { 
+    border-radius: 2%; 
+ 
   
+    
+    
+}
