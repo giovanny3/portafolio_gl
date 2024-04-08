@@ -79,9 +79,15 @@ body{
 
 .servicios{
     text-align: center;
+    background-color:#b7ab9f;
+    margin: 5px;
 }
 .box {
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
+}
+
+.footer { 
+    text-align: center;
 }
