@@ -60,7 +60,7 @@ body{
 
 .titulo_perfil{
     margin: 20px;
-    margin-left: 200px;
+    padding-left: 200px;
 }
 
 .perfil{
@@ -73,6 +73,8 @@ body{
 
 .perfil img { 
     border-radius: 2%; 
+    background-position: 50%;
+
  
   
     
