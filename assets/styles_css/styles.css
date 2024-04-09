@@ -104,3 +104,28 @@ body{
     margin: 5px;
     text-align: center;
 }
+
+.titulo_portafolio{
+    text-align: center;
+    background-color: #b7ab9f;
+    margin: 5px;
+    padding: 10px;
+}
+
+.desafios{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 20px;
+
+}
+.card { 
+    justify-content: space-between;
+    text-align: center;
+    justify-content: center;
+}
+
+.col-md-6{
+    justify-content: center;
+}
