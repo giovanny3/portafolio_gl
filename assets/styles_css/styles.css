@@ -74,15 +74,18 @@ body{
 }
 
 .perfil img { 
+
     border-radius: 2%; 
     background-position: 50%; 
-    size: cover;
+    size: auto;
+    
 }
 
 .servicios{
     text-align: center;
     background-color:#b7ab9f;
     margin: 5px;
+    padding-top: 20px;
 }
 .box {
     display: flex;
@@ -92,5 +95,12 @@ body{
 }
 
 .footer { 
+    text-align: center;
+    background-color: #b7ab9f;
+    margin: 5px;
+}
+
+.estudios{
+    margin: 5px;
     text-align: center;
 }
